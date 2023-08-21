@@ -1,0 +1,73 @@
+.card-thankyou-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    180deg,
+    hsl(213, 19%, 18%) 0%,
+    hsl(216, 12%, 10%)
+  );
+  border-radius: 35px;
+  border: none;
+  width: 500px;
+  height: 500px;
+}
+
+.inner-thankyou-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // margin: 0;
+  // background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+
+.title-text {
+  font-size: 50px;
+  margin: 15px;
+}
+.desc-text {
+  margin: 0 20px;
+  font-size: 18px;
+  color: hsl(216, 12%, 54%);
+  text-align: center;
+}
+
+.selected-text {
+  padding: 0;
+  font-size: 18px;
+  color: hsl(25, 97%, 53%);
+}
+
+@media only screen and (max-width: 500px) {
+  .card-thankyou-container {
+    margin: 0 30px;
+  }
+  .inner-thankyou-container {
+  }
+}
+
+@media only screen and (max-width: 397px) {
+  .title-text {
+    font-size: 35px;
+  }
+
+  .desc-text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 334px) {
+  .title-text {
+    font-size: 27px;
+  }
+
+  .desc-text {
+    font-size: 15px;
+  }
+
+  .selected-text {
+    font-size: 12px;
+  }
+}
