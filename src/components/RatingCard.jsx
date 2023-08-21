@@ -28,8 +28,8 @@ const RatingCard = ({ setCurrentRate }) => {
         >
           <Star style={{ transform: "scale(1.3)" }} />
         </span>
-        <p className="title-text">How did we do?</p>
-        <p className="desc-text">
+        <p className="titles-text">How did we do?</p>
+        <p className="descs-text">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
